@@ -1,0 +1,15 @@
+# LTspice generated waveforms and internal artifacts
+*.raw
+*.op.raw
+*.db
+*.net
+*.log
+*.fft
+*.bak
+*.tmp
+# macOS metadata
+.DS_Store
+__MACOSX/
+._*
+# local temporary files
+*~
