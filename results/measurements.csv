@@ -1,0 +1,16 @@
+Category,Metric,Value,Unit,Test conditions/source
+Bias,Supply voltage,1.8,V,Schematic
+Bias,Gate DC voltage,0.65,V,Schematic
+Bias,Drain resistor,9000,ohm,Schematic
+Bias,MOSFET width,25,um,Schematic
+Bias,MOSFET length,1,um,Schematic
+Bias,Quiescent drain voltage,0.861244022846,V,NMOS_CS_DC.log
+Bias,Inferred drain current,104.30621968377778,uA,"(1.8-Vout)/9k, derived"
+DC,Local transfer slope,-8.98286700249,V/V,Vin 0.645 to 0.655 V
+AC,Low-frequency magnitude,19.0687284482,dB,"Cload 2 pF, 100 Hz; nearly identical for all loads"
+Transient,Measured peak-to-peak gain magnitude,8.98308933979,V/V,"10kHz, 5mV peak input"
+Fourier,Total harmonic distortion,0.517208,percent,"10 kHz, 5 mV peak input, nine harmonics"
+AC sweep,-3 dB bandwidth at Cload=2 pF,9.239826921399999,MHz,NMOS_CS_AC.log
+AC sweep,-3 dB bandwidth at Cload=5 pF,3.69592933829,MHz,NMOS_CS_AC.log
+AC sweep,-3 dB bandwidth at Cload=10 pF,1.84796491018,MHz,NMOS_CS_AC.log
+AC sweep,-3 dB bandwidth at Cload=20 pF,0.9239827028540001,MHz,NMOS_CS_AC.log
