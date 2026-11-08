@@ -1,0 +1,7 @@
+Extracted verbatim from the user-supplied LTspice 26.0.2 simulation log. Machine-specific file paths omitted.
+Source in original archive: NMOS_CS_DC.log
+
+out_lo: V(vout) =0.905693590641 at 0.645
+out_hi: V(vout) =0.815864920616 at 0.655
+av_meas: (out_hi-out_lo)/0.01=-8.98286700249
+vout_q: V(vout) =0.861244022846 at 0.65

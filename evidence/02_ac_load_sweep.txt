@@ -1,0 +1,16 @@
+Extracted verbatim from the user-supplied LTspice 26.0.2 simulation log. Machine-specific file paths omitted.
+Source in original archive: NMOS_CS_AC.log
+
+Measurement: a0
+  step	mag(V(vout)) 	at
+     1	(19.0687284482dB,0°)	100
+     2	(19.0687284455dB,0°)	100
+     3	(19.068728436dB,0°)	100
+     4	(19.0687283978dB,0°)	100
+
+Measurement: f3db
+  step	mag(V(vout))=A0/sqrt(2) 
+     1	9239826.9214
+     2	3695929.33829
+     3	1847964.91018
+     4	923982.702854

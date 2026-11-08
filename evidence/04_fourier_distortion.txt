@@ -1,0 +1,25 @@
+Extracted verbatim from the user-supplied LTspice 26.0.2 simulation log. Machine-specific file paths omitted.
+Source in original archive: NMOS_CS_Distortion.log
+
+Fourier components of V(vout)
+N-Period=5
+DC component:0.861012
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+04	 4.491e-02	 1.000e+00	  -89.69°	    0.00°
+    2   	 2.000e+04	 2.323e-04	 5.172e-03	    0.56°	   90.25°
+    3   	 3.000e+04	 5.505e-07	 1.226e-05	  -88.35°	    1.34°
+    4   	 4.000e+04	 2.700e-09	 6.013e-08	  -36.62°	   53.07°
+    5   	 5.000e+04	 7.920e-10	 1.763e-08	  111.33°	  201.02°
+    6   	 6.000e+04	 3.621e-09	 8.062e-08	 -137.02°	  -47.33°
+    7   	 7.000e+04	 3.973e-09	 8.847e-08	  176.24°	  265.93°
+    8   	 8.000e+04	 5.056e-09	 1.126e-07	  -59.14°	   30.55°
+    9   	 9.000e+04	 4.425e-09	 9.853e-08	  -36.53°	   53.16°
+Partial Harmonic Distortion: 0.517206%
+Total Harmonic Distortion:   0.517208%
+
+vin_pp: PP(V(vin) )=0.0099995136261 FROM 0.0002 TO 0.001
+vout_pp: PP(V(vout) )=0.0898265242577 FROM 0.0002 TO 0.001
+gain_pp: vout_pp/vin_pp=8.98308933979
+vout_avg: AVG(V(vout) )=0.861011631815 FROM 0.0002 TO 0.001

@@ -1,0 +1,7 @@
+Extracted verbatim from the user-supplied LTspice 26.0.2 simulation log. Machine-specific file paths omitted.
+Source in original archive: NMOS_CS_Transient.log
+
+vin_pp: PP(V(vin) )=0.0099995136261 FROM 0.0002 TO 0.001
+vout_pp: PP(V(vout) )=0.0898265242577 FROM 0.0002 TO 0.001
+gain_pp: vout_pp/vin_pp=8.98308933979
+vout_avg: AVG(V(vout) )=0.861011631815 FROM 0.0002 TO 0.001
